@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: 'GillSansUltraBold';
+  src: url('./fonts/GillSansUltraBold.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'CalligraphyFLF';
   src: url('./fonts/CalligraphyFLF.ttf') format('truetype');
 }
@@ -89,7 +94,8 @@ h1 {
 
 h2 {
   /* font-family: 'CalligraphyFLF', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Elektra', sans-serif;
   margin: 15px auto;
   width: fit-content;
   /* display: inline; */
@@ -97,7 +103,8 @@ h2 {
 
 a {
   /* font-family: 'CalligraphyFLF', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'GillSansUltraBold', sans-serif;
   margin: 0 10px;
 }
 
