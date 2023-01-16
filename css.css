@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
   font-family: 'Mechanization';
   src: url('./fonts/Mechanization.ttf') format('truetype');
@@ -42,6 +44,7 @@ body {
   font-family: 'Elektra', sans-serif;
   /* background: linear-gradient(to bottom, #ffffff, #ffffff, #000060); */
   background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, rgba(204, 157, 0, 0.768));
+  /* background-color: white; */
   color: black;
   width: 100%;
   margin: 0;
@@ -85,14 +88,16 @@ h1 {
 }
 
 h2 {
-  font-family: 'CalligraphyFLF', sans-serif;
+  /* font-family: 'CalligraphyFLF', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   margin: 15px auto;
   width: fit-content;
   /* display: inline; */
 }
 
 a {
-  font-family: 'CalligraphyFLF', sans-serif;
+  /* font-family: 'CalligraphyFLF', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   margin: 0 10px;
 }
 
@@ -100,13 +105,14 @@ img {}
 
 img#main-logo {
   min-width: 100px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 10px;
   margin: 0 10px;
 }
 
 img.aff-img {
+  z-index: -1;
   display: block;
   width: 50px;
   height: 50px;
@@ -122,7 +128,6 @@ ul {
 }
 
 li {
-
   /* border: 1px solid black; */
   border-radius: 10px;
   display: flex;
