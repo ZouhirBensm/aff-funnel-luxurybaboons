@@ -4,6 +4,16 @@
 }
 
 @font-face {
+  font-family: 'CalligraphyFLF';
+  src: url('./fonts/CalligraphyFLF.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Austere';
+  src: url('./fonts/Austere.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'AvenueX-Regular';
   src: url('./fonts/AvenueX-Regular.otf') format('truetype');
 }
@@ -31,7 +41,7 @@ html {
 body {
   font-family: 'Elektra', sans-serif;
   /* background: linear-gradient(to bottom, #ffffff, #ffffff, #000060); */
-  background: linear-gradient(to bottom, #ffffff, #ffffff, rgba(230, 211, 0, 0.717));
+  background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, rgba(204, 157, 0, 0.768));
   color: black;
   width: 100%;
   margin: 0;
@@ -73,23 +83,22 @@ h1 {
   margin: 0;
   display: inline;
 }
+
 h2 {
-  /* font-family: 'Amperzand', sans-serif; */
+  font-family: 'CalligraphyFLF', sans-serif;
   margin: 15px auto;
   width: fit-content;
   /* display: inline; */
 }
 
 a {
-  font-family: 'AvenueX-Regular', sans-serif;
+  font-family: 'CalligraphyFLF', sans-serif;
   margin: 0 10px;
 }
 
-img {
-  
-}
+img {}
 
-img#main-logo{
+img#main-logo {
   min-width: 100px;
   width: 100px;
   height: 100px;
@@ -97,7 +106,7 @@ img#main-logo{
   margin: 0 10px;
 }
 
-img.aff-img{
+img.aff-img {
   display: block;
   width: 50px;
   height: 50px;
@@ -141,8 +150,9 @@ a:visited {
 } */
 
 
-a:link:active, a:visited:active {
-  color: rgba(230, 211, 0, 0.717);
+a:link:active,
+a:visited:active {
+  color: rgba(181, 135, 0, 0.856);
 }
 
 
@@ -163,8 +173,7 @@ li:hover {
 }
 
 
-li:hover > a
-{
+li:hover>a {
   color: rgba(0, 0, 0, 0.964);
 }
 
@@ -176,18 +185,32 @@ li:active {
 
 
 @media only screen and (max-width: 500px) {
-  h1,
-  h2,
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
   a {
-      font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
 
 
 @media only screen and (min-width: 800px) {
-  h1,
-  h2,
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
   a {
-      font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
